@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:element name="dataset">
+		<xs:annotation>
+			<xs:documentation>Root Element</xs:documentation>
+		</xs:annotation>
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="event" minOccurs="0" maxOccurs="unbounded">
+					<xs:annotation>
+						<xs:documentation>All the events.  Only the first 3 will show in the smaller panels, but they will all show on the main events page.</xs:documentation>
+					</xs:annotation>
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="dates" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>The date(s) to display in bold.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="maintext" type="xs:string">
+								<xs:annotation>
+									<xs:documentation>The text that appears in ALL instances of the event.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="extratext" type="xs:string" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The extra text the only appears on the main events page.</xs:documentation>
+								</xs:annotation>
+							</xs:element>
+							<xs:element name="link" minOccurs="0">
+								<xs:annotation>
+									<xs:documentation>The URL of an optional link that displays after the event text, only the main even page.</xs:documentation>
+								</xs:annotation>
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<xs:attribute name="link_display" type="xs:string" use="required">
+												<xs:annotation>
+													<xs:documentation>The text that shows as the optional link.</xs:documentation>
+												</xs:annotation>
+											</xs:attribute>
+											<xs:attribute name="new_win" type="xs:boolean">
+												<xs:annotation>
+													<xs:documentation>Boolean value to control whether link opens in a new window.  Optional.  False is assumed if absent.</xs:documentation>
+												</xs:annotation>
+											</xs:attribute>
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+						</xs:sequence>
+						<xs:attribute name="exp_date" type="xs:date">
+							<xs:annotation>
+								<xs:documentation>Optional attribute containing the last date on which this item will appear on the site.</xs:documentation>
+							</xs:annotation>
+						</xs:attribute>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

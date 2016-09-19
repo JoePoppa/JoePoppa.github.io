@@ -1,0 +1,225 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body {
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	background-position: center;
+	background-position: top;
+	background-color: #999;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	line-height: 20px;
+}
+
+/* I did this as a fixed shell to ensure that the elements would fit at your minimum resolution for this shell CSS.  Don't use fixed width styles for the actual program. */
+.FixedShell {
+	width: 1270px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 700px;
+	position: relative;
+	background-color: #FFF;
+}
+
+/* The spring cloudy sky background image is in here. */
+.LeftColumn {
+	width: 205px;
+	float: left;
+	height: 700px;
+	position: relative;
+	background-color: #aad8fd;
+	background-image: url(../images/cloud.jpg);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+/* Spacing on this logo graphic is 10px 12px to ensures it's padded from the upper left corner. */
+.LeftLogo {
+	width: 205px;
+	float: left;
+	height: 70px;
+	position: relative;
+	background-color: #0070fa;
+	background-image: url(../images/logo.png);
+	background-repeat: no-repeat;
+	background-position: 10px 12px;
+}
+
+/* These define the normal and hover states of the expanding menus. */
+.LeftExpander {
+	width: 200px;
+	float: left;
+	height: 30px;
+	background-color: #00388e;
+	font-weight:bolder;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size:12px;
+	text-indent: 5px;
+	color: #FFF;
+}
+
+.LeftExpander a{
+	display:block;
+	color:#FFF;
+	text-decoration:none;
+	background-color: #00388e;
+	padding: 5px;
+	text-transform: uppercase;
+	z-index:50;
+	background-image: url(../images/left_expander_bg.png);
+	background-repeat: repeat;
+}
+
+.LeftExpander a:hover{
+	color:#fff;
+	text-transform: uppercase;
+	background-color: #00388e;
+	padding: 5px;
+	text-transform: uppercase;
+	z-index:50;
+	background-image: url(../images/left_expander_hover_bg.png);
+	background-repeat: repeat;
+}
+
+
+/* This is sort of a placeholder for the green "expander" bar that hides the left nav.   It's color is #74cf5d */
+.GreenVertBar {
+	width: 5px;
+	float: right;
+	position: inherit;
+	background-color: #74cf5d;
+	height: 630px;
+	z-index:60;
+}
+
+/* The table in this mockup is just a JPG with sizes, colors, and styles written in due to timing and need of this on Monday. */
+.RightContentArea {
+	width: 1065px;
+	float: left;
+	height: 700px;
+	position: relative;
+}
+
+/* These styles define the header area with categories so it's easy for a user to tell where they are. */
+.RightHeaderArea {
+	width: 1065px;
+	float: left;
+	height: 70px;
+	position: relative;
+	background-color: #00388e;
+}
+
+.RightTitle {
+	width: 125px;
+	height: 35px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 12px;
+	line-height: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0053CE;
+}
+
+.RightTitle2 {
+	width: 125px;
+	height: 35px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 12px;
+	line-height: 15px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #0053CE;
+}
+
+.RightSite {
+	width: 350px;
+	height: 35px;
+	float: left;
+	margin-top: 15px;
+	margin-left: 12px;
+	line-height: 15px;
+}
+
+.RightLogin {
+	height: 35px;
+	float: right;
+	margin-top: 15px;
+	margin-right: 20px;
+	line-height: 15px;
+}
+
+/* The big text in the header. */
+.RightContentArea h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+/* The green header titles. */
+.RightContentArea h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	font-weight: bold;
+	color: #74CF5D;
+	text-transform: capitalize;
+}
+
+/* The login text and rollover states below that in white with underline on hover. */
+.RightContentArea h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #74CF5D;
+}
+
+.RightContentArea a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: none;
+}
+
+.RightContentArea a:hover{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #FFF;
+	text-decoration: underline;
+}
+
+/* The small text under the header that defines the compound. */
+.RightCompound {
+	width: 1033px;
+	height: 25px;
+	margin-top: 0px;
+	margin-left: 12px;
+	line-height: normal;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #0053CE;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color: #CCC;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	top: 50px;
+	padding-top: 3px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}

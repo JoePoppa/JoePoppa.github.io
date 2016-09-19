@@ -1,0 +1,64 @@
+a:hover {
+	color: #cc0000;
+	text-decoration: underline;	
+}
+
+a:visited {
+	color: #006699;
+	text-decoration: none;
+}
+
+a:link { 
+	color: #990000;
+	text-decoration: none;
+}
+
+.Headline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: 006699;
+}
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: 757779;
+}
+.redbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #CC0000;
+}
+.sidebartext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+}
+.sidebarHead {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: 006699;
+}

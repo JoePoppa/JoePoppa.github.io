@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>SG&amp;D Communications &amp; Design - Pittsburgh</title>
+<!-- TemplateEndEditable -->
+<link href="../includes/sgd.css" rel="stylesheet" type="text/css" />
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+
+<body>
+<div class="TopBanner">
+  <div class="TopBanner_X">
+  	<div class="Logo"></div>
+    <div class="Logo_Text">
+      <p><a href="http://remarks.sgd-communications.com/" target="_blank">Blog</a></p>
+      <p><a href="#">Client Login</a></p>
+      <p><a href="http://www.facebook.com/pages/SGD-Communications-Design/351252735423" target="_blank"><img src="../images/soc_fb.gif" width="26" height="26" border="0" /></a><a href="http://www.linkedin.com/in/donnabarger" target="_blank"><img src="../images/soc_li.gif" width="26" height="26" border="0" /></a><a href="http://twitter.com/sgd_comm" target="_blank"><img src="../images/soc_tw.gif" width="23" height="26" border="0" /></a></p>
+    </div>
+  </div>
+</div>
+<div class="Menu">
+  <div class="Menu_X">
+  	<ul id="nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>            
+                <li>
+                    <a href="about_us.html">ABOUT US</a>
+                    <ul>
+                        <li><a href="our_story.html">&nbsp;OUR STORY&nbsp;</a></li>            
+                        <li><a href="#">&nbsp;OUR TEAM&nbsp;</a></li>
+                        <li><a href="clients.html">&nbsp;CLIENTS&nbsp;</a></li>
+                        <li><a href="partners.html">&nbsp;PARTNERS&nbsp;</a></li>
+                        <li><a href="certifications.html">&nbsp;CERTIFICATIONS&nbsp;</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="services.html">SERVICES</a>
+                    <ul>
+                        <li><a href="strategy.html">&nbsp;STRATEGY&nbsp;</a></li>            
+                        <li><a href="#">&nbsp;BRANDING&nbsp;</a></li>
+                        <li><a href="interactive.html">&nbsp;INTERACTIVE&nbsp;</a></li>
+                        <li><a href="design.html">&nbsp;DESIGN&nbsp;</a></li>
+                        <li><a href="pr_media.html">&nbsp;PR/MEDIA&nbsp;</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="approach.html">APPROACH</a>
+                    <ul>
+                    	<li><a href="why_sgd.html">&nbsp;WHY SG&D?&nbsp;</a></li> 
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                    <ul>
+                        <li><a href="web.html">&nbsp;WEB&nbsp;</a></li>            
+                        <li><a href="print.html">&nbsp;PRINT&nbsp;</a></li>
+                        <li><a href="#">&nbsp;LOGOS&nbsp;</a></li>
+                        <li><a href="#">&nbsp;MOBILE&nbsp;</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">CONTACT US</a>
+                </li>
+            </ul> 
+  </div>
+</div>
+
+<div class="Display"><!-- TemplateBeginEditable name="Content Area" -->
+  <!-- TemplateEndEditable -->
+</div>
+
+<div class="Footer">
+  <div class="Footer_X">
+  	<ul id="footer_text">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>                      
+                <li>
+                    <a href="about_us.html">ABOUT US</a>
+                    <ul>
+                        <li><a href="our_story.html">OUR STORY</a></li>            
+                        <li><a href="#">OUR TEAM</a></li>
+                        <li><a href="clients.html">CLIENTS</a></li>
+                        <li><a href="partners.html">PARTNERS</a></li>
+                        <li><a href="certifications.html">CERTIFICATIONS</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="services.html">SERVICES</a>
+                    <ul>
+                        <li><a href="strategy.html">STRATEGY</a></li>            
+                        <li><a href="#">BRANDING</a></li>
+                        <li><a href="interactive.html">INTERACTIVE</a></li>
+                        <li><a href="design.html">DESIGN</a></li>
+                        <li><a href="pr_media.html">PR/MEDIA</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="approach.html">APPROACH</a>
+                    <ul>
+                    	<li><a href="why_sgd.html">WHY SG&D?</a></li> 
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">PORTFOLIO</a>
+                    <ul>
+                        <li><a href="web.html">WEB</a></li>            
+                        <li><a href="print.html">PRINT</a></li>
+                        <li><a href="#">LOGOS</a></li>
+                        <li><a href="#">MOBILE</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">CONTACT US</a>
+                </li>
+            </ul> 
+  </div>
+</div>
+</body>
+</html>

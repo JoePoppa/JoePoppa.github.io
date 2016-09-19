@@ -1,0 +1,127 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/jp_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Joseph Poppa - Graphic Design - Animation - Interactive Design - Illustration - 3D Modelling</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="includes/jquery-1.6.min.js"></script>
+
+<script type="text/javascript" src="includes/cycle_full.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+
+// Tabs & Slideshow:
+$j("#ws_tabs div").mouseover(function(){
+$j("#ws_yellow_arrow").css({"top" : ($j(this).index()*57.5)+20+"px"}).show();
+});
+$j("#ws_tabs div").mouseout(function(){
+$j("#ws_yellow_arrow").hide();
+});
+$j("#ws_tabs div").click(function(){
+$j("#ws_slideshow").cycle($j(this).index()).cycle("pause");
+}); 
+</script>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="header"></div>
+		<div id="menu">   
+            <ul id="nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>            
+                <li>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <ul>
+                        <li><a href="port_int_01.html">INTERFACE DESIGN</a></li>            
+                        <li><a href="port_email_01.html">E-MAIL DESIGN</a></li>
+                        <li><a href="port_modeling_01.html">3D MODELING & ANIMATION</a></li>
+                        <li><a href="port_print_01.html">PRINTED DESIGN</a></li>
+                        <li><a href="port_other_01.html">OTHER DESIGN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="designer.html">THE DESIGNER</a>
+            
+                    <ul>
+                        <li><a href="Jwpoppa_2011_resume.doc" target="_blank">MY RESUME</a></li>            
+                        <li><a href="http://www.linkedin.com/profile/view?id=4352093&trk=tab_pro" target="_blank">LINKED-IN PROFILE</a></li>
+                    </ul>
+            
+                </li>
+                <li>
+                    <a href="contact.php">CONTACT ME</a>
+                </li>
+            </ul>          
+  		</div>
+        <!--END HEADER-->
+        
+        <div id="body"> 
+        
+       	  <div id="leftCol"><!-- InstanceBeginEditable name="Left Column" -->
+          	<p><a href="port_email_01.html" style="float:left">PREVIOUS</a> <a href="port_email_01.html" style="float:right;">NEXT</a></p>
+   		  <p>&nbsp;</p>
+          			<img src="images/gallery_email_tfs.jpg" width="550" height="450" />
+          <p>&nbsp;</p>
+            <p><a href="port_email_01.html" style="float:left">PREVIOUS</a> <a href="port_email_01.html" style="float:right;">NEXT</a></p>
+          <p>&nbsp;</p>
+       	  <!-- InstanceEndEditable --></div>
+      <div id="rightCol"><!-- InstanceBeginEditable name="Right Column" -->
+      		<h1>E-Mail Design</h1>
+      		<h2>ThermoFisher Scientific</h2>
+      <p>I helped with e-mail design on several projects at our Enterprise E-Business group.</p>
+      <p>The sample to the left is a Brand Ambassador email template for ThermoFisher Scientific.</p>
+      <p>Brand Ambassador went out once a week and contained branding rules, guidelines and tips for our internal customers.</p>
+      <p>Our goal was to help ensure brand compliance and to teach internal users why protecting our brand helped to promote us as a company.</p>
+      <p>I also created designs for each of the Fisher Scientific Markets and for CEO Newsletters.</p>
+      <!-- InstanceEndEditable --></div>    
+          
+          
+<!--FOOTER-->
+          <div id="footer">
+          	<ul id="footer_text">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>            
+                <li>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <ul>
+                        <li><a href="port_int_01.html">INTERFACE DESIGN</a></li>            
+                      <li><a href="port_email_01.html">E-MAIL DESIGN</a></li>
+                        <li><a href="port_modeling_01.html">3D MODELING</a></li>
+                        <li><a href="port_print_01.html">PRINTED DESIGN</a></li>
+                        <li><a href="port_other_01.html">OTHER DESIGN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="designer.html">THE DESIGNER</a>
+            
+                    <ul>
+                        <li><a href="Jwpoppa_2011_resume.doc" target="_blank">MY RESUME</a></li>            
+                      <li><a href="http://www.linkedin.com/profile/view?id=4352093&trk=tab_pro" target="_blank">LINKED-IN PROFILE</a></li>
+                    </ul>
+            
+                </li>
+                <li>
+                    <a href="contact.php">CONTACT ME</a>
+                </li>
+            </ul>        
+          </div>
+<!--END FOOTER-->          
+          
+          
+        </div>
+
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

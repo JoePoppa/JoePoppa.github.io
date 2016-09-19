@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset xsi:noNamespaceSchemaLocation="events_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<event>
+		<dates>Month XX - YY</dates>
+		<maintext>Lorem Ipsum es tu dolonor esta.</maintext>
+		<extratext>, Township, ST</extratext>
+	</event>
+	<event>
+		<dates>Month XX - YY</dates>
+		<maintext>Agravat loremes tu lipsum una es quetal.</maintext>
+		<extratext>, Township, ST</extratext>
+	</event>
+	<event>
+		<dates>Month XX - YY</dates>
+		<maintext>Dolonor ipsum es tu esta.</maintext>
+		<extratext>, Township, ST</extratext>
+	</event>
+</dataset>

@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+    min-height: 100%;
+    margin-bottom: 1px; 
+}
+body {
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	background-image: url(../images/temp_bg.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	background-color: #EFE0D9;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #333333;
+}
+html body {
+	margin:0;
+	padding:0;
+}
+td {
+	vertical-align: top;
+}
+h1 {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #977868;
+	font-weight: bold;
+}
+a {
+	color: #0670E3;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #990000;
+}
+p {
+	margin-top: 0px;
+}
+li {
+	line-height: 16px;
+}
+li div {
+	padding-top: 5px;
+}
+.faq li {
+	margin-bottom: 20px;
+}
+.compressed li {
+	margin-bottom: 1px;
+}
+.compressed {
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+.nothingBelow {
+	margin-bottom: 0px !important;
+}
+img.padded {
+	margin: 0px 20px 20px 5px;
+}
+#container {
+	width: 980px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+	z-index: 10;
+}
+#leftColumnHeader {
+	height: 24px;
+	background-color: #99D2E6;
+}
+#leftCol {
+	background-color: #4A718E;
+}
+#mainContent {
+	background-color: #ffffff;
+	padding: 20px 20px 20px 20px;
+}
+#menuRow, #menuRow a {
+	color: #ffffff;
+	font-size: 10px;
+	font-weight: bold;
+	text-decoration: none;
+}
+#menuRow a:hover {
+	text-decoration: none;
+}
+#menuRow td {
+	text-align: center;
+	vertical-align: middle;
+}
+#homeDropdown {
+	left: 190px;
+}
+#aboutDropdown {
+	left: 453px;
+}
+#linksDropdown {
+	left: 848px;
+}
+.darkBrown {
+	background-color: #006666;
+	cursor: pointer;
+}
+.lightBrown {
+	background-color: #009999;
+	cursor: pointer;
+}
+.dropdown {
+	position: absolute;
+	top: 134px;
+	z-index: 50;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #cccccc;
+}
+.dropdown a {
+	display: block;
+	width: 112px;
+	padding: 5px 10px 6px 10px;
+	background-color: #006699;
+	font-size: 10px;
+	color: #ffffff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.dropdown a:hover {
+	background-color: #006699;
+}
+.dropdownTrigger {
+	cursor: pointer;
+}
+.signature {
+	color: #197dc8;
+	text-align: center;
+}
+.blueTitle {
+	color: #0099CC;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}

@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+html{
+    min-height: 100%;
+    margin-bottom: 1px; 
+}
+body {
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	background-image: url(../images/background3.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	background-position: top;
+	background-color: #f3d69e;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+html body {
+	margin:0;
+	padding:0;
+}
+td {
+	vertical-align: top;
+}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #f8a421;
+	font-weight: bold;
+	line-height: 40px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	margin-bottom: 10px;
+}
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #6c8f93;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+a {
+	color: #0099cc;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0099cc;
+}
+p {
+	padding: 0;
+	margin-top: 0.22em;
+	margin-bottom: 0.6em;
+} 
+li {
+	line-height: 16px;
+}
+li div {
+	padding-top: 5px;	
+}
+.faq li {
+	margin-bottom: 20px;
+}
+.compressed li {
+	margin-bottom: 1px;
+}
+.compressed {
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+.nothingBelow {
+	margin-bottom: 0px !important;
+}
+img.padded {
+	margin: 0px 20px 20px 5px;
+}
+#container {
+	width: 964px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+}
+#header {
+	width: 964px;
+	height: 125px;
+	top: 40px;
+	position: absolute;
+	background-position: top;
+	background-image: url(../images/sara_header.jpg);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+#menu {
+	width: 964px;
+	height: 40px;
+	top: 125px;
+	position: absolute;
+	background-image: url(../images/jp_menubar.png);
+	z-index: 50;
+}
+#body {
+	width: 964px;
+	height: auto;
+	top: 160px;
+	position: absolute;
+	background-image: url(../images/jp_stretchbg.png);
+	background-repeat: repeat-y;
+	z-index: 10;
+}
+
+#rightCol {
+	width: 260px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	margin-right: 30px;
+	float:right;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+}
+#leftCol {
+	width: 550px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 45px;
+	margin-right: 48px;
+}
+#mainContent {
+	background-image: url(../images/jp_stretchbg.png);
+	background-color: #ffffff;
+	padding: 20px 20px 20px 20px;
+}
+.blueTitle {
+	color: #0099CC;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}

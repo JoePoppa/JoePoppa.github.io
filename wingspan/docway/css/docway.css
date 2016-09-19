@@ -1,0 +1,191 @@
+a:hover {
+	color: #F0EE89;
+	text-decoration: underline;	
+}
+
+a:visited {
+	color: #D8E4F0;
+	text-decoration: none;
+}
+
+a:link { 
+	color: #E9F0F8;
+	text-decoration: none;
+}
+
+.headline {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #006699;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	left: 0px;
+	background-position: top;
+}
+.redbody {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #CC0000;
+}
+.sidebartext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #333333;
+}
+.sidebarHead {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: 006699;
+}
+.bodytext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	left: 10px;
+	margin-left: 0px;
+	margin-right: 10px;
+}
+.reverse_home {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #D4D4D4;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	clip: rect(auto,auto,auto,auto);
+	width: auto;
+}
+.reverse_subhead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	text-indent: 0px;
+}
+.bodybullet {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #666666;
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+	list-style-image: url(../images/bullet.gif);
+}
+.upperright_links {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #D4D4D4;
+	text-align: right;
+	vertical-align: middle;
+	clip: rect(auto,auto,auto,auto);
+	width: auto;
+	padding-top: 0px;
+	padding-right: 15px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.reverse_sidemenu {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #FFFFFF;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	clip: rect(auto,auto,auto,auto);
+	width: 130px;
+	background-position: left top;
+}
+.bodytext2 {
+
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: left;
+	vertical-align: top;
+	padding: 0px;
+}
+.sidelink_head {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: x-small;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	color: #006699;
+	text-align: left;
+	vertical-align: top;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	width: 130px;
+}

@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+#nav{
+	list-style:none;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size:15px;
+	margin-bottom:10px;
+	/* Clear floats */
+	float:left;
+	width:100%;
+	position:relative;
+	z-index:50;
+	left: 130px;
+	top: 2px;
+}
+#nav li{
+	float:left;
+	margin-right:90px;
+	position:relative;
+}
+#nav a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	background-color: #6C8F93;
+	padding: 11px;
+}
+#nav a:hover{
+	color:#fff;
+	background:#6b0c36;
+	text-decoration:underline;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	/* background:#fff;  Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background-image:url(../images/transparent.gif);
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav ul li{
+	padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 6px;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:none;
+	background-color: #4B6365;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background-color: #6C8F93;
+}
+/* End NAV */
+
+html{
+    min-height: 100%;
+    margin-bottom: 1px; 
+}
+body {
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-position: center;
+	background-position: top;
+	background-color: #f3d69e;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+}
+html body {
+	margin:0;
+	padding:0;
+}
+td {
+	vertical-align: top;
+}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #7d422e;
+	font-weight: bold;
+	line-height: 40px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	margin-bottom: 10px;
+}
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #6c8f93;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+a {
+	color: #0099cc;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0099cc;
+}
+p {
+padding: 0;
+margin-top: .22em;
+margin-bottom: .35em;
+} 
+li {
+	line-height: 16px;
+}
+li div {
+	padding-top: 5px;	
+}
+.faq li {
+	margin-bottom: 20px;
+}
+.compressed li {
+	margin-bottom: 1px;
+}
+.compressed {
+	padding-top: 0px;
+	margin-bottom: 20px;
+}
+.nothingBelow {
+	margin-bottom: 0px !important;
+	
+}
+img.padded {
+	margin: 0px 20px 20px 5px;
+}
+#container {
+	width: 964px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+}
+#header {
+	width: 964px;
+	height: 125px;
+	top: 0px;
+	position: absolute;
+	background-position: top;
+	background-image: url(../images/jp_header.png);
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+#menu {
+	width: 964px;
+	height: 40px;
+	top: 125px;
+	position: absolute;
+	background-image: url(../images/jp_menubar.png);
+	z-index: 50;
+}
+#body {
+	width: 964px;
+	height: auto;
+	top: 160px;
+	position: absolute;
+	background-image: url(../images/jp_stretchbg.png);
+	background-repeat: repeat-y;
+	z-index: 10;
+}
+/*------------------------------------*\
+	FOOTER NAV
+\*------------------------------------*/
+#footer {
+	width: 964px;
+	height: 175px;
+	bottom: -175px;
+	position: absolute;
+	background-image: url(../images/jp_footer.png);
+	background-repeat: no-repeat;
+	float:center;
+	z-index: 11;
+}
+
+#footer_text{
+	list-style:none;
+	font-weight:bold;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size:12px;
+	margin-bottom:10px;
+	/* Clear floats */
+	float:left;
+	width:100%;
+	position:relative;
+	z-index:50;
+	left: 130px;
+	top: 2px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#footer_text li{
+	float:left;
+	margin-right:120px;
+	position:relative;
+}
+#footer_text a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	padding: 8px;
+}
+#footer_text a:hover{
+	color:#FFC;
+	text-decoration:none;
+}
+
+/*--- DROPDOWN ---*/
+#footer_text ul{
+	/* background:#fff;  Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background-image:url(../images/transparent.gif);
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+}
+#footer_text ul li{
+	padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+	font-size: 12px;
+	margin-left: 10px;
+	line-height: 6px;
+}
+#footer_text ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#footer_text li:hover ul{ /* Display the dropdown on hover */
+	
+}
+#footer_text li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:underline;
+}
+#footer_text li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#footer_text li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+}
+
+/* END FOOTER */
+
+#rightCol {
+	width: 260px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 30px;
+	margin-right: 30px;
+	float:right;
+	position:absolute;
+	top: 0px;
+	right: 0px;
+}
+#leftCol {
+	width: 550px;
+	margin-top: 45px;
+	margin-bottom: 25px;
+	margin-left: 45px;
+	margin-right: 48px;
+}
+#mainContent {
+	background-image: url(../images/jp_stretchbg.png);
+	background-color: #ffffff;
+	padding: 20px 20px 20px 20px;
+}
+.blueTitle {
+	color: #0099CC;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+/*CAROUSEL*/
+
+#ws_home_slides {
+    background-image: url("images/tiles/home_blank.jpg");
+    background-repeat: no-repeat;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    width: 550px;
+}
+#ws_slideshow {
+    height: 260px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#ws_slideshow a {
+    display: none;
+}
+#ws_slideshow a.first {
+    display: block;
+}
+#ws_tabs {
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 100px;
+    z-index: 25;
+}
+#ws_tabs div {
+    height: 65px;
+}
+#ws_yellow_arrow {
+    right: 20px;
+    position: absolute;
+    top: 0;
+    z-index: 30;
+}

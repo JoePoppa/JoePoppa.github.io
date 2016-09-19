@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><!-- InstanceBegin template="/Templates/jp_template.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Joseph Poppa - Graphic Design - Animation - Interactive Design - Illustration - 3D Modelling</title>
+<!-- InstanceEndEditable -->
+<script type="text/javascript" src="includes/jquery-1.6.min.js"></script>
+
+<script type="text/javascript" src="includes/cycle_full.js"></script>
+<script type="text/javascript"> 
+$(document).ready(function() {
+    $('.slideshow').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+
+// Tabs & Slideshow:
+$j("#ws_tabs div").mouseover(function(){
+$j("#ws_yellow_arrow").css({"top" : ($j(this).index()*57.5)+20+"px"}).show();
+});
+$j("#ws_tabs div").mouseout(function(){
+$j("#ws_yellow_arrow").hide();
+});
+$j("#ws_tabs div").click(function(){
+$j("#ws_slideshow").cycle($j(this).index()).cycle("pause");
+}); 
+</script>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<!-- InstanceBeginEditable name="head" --><!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div id="container">
+	<div id="header"></div>
+		<div id="menu">   
+            <ul id="nav">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>            
+                <li>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <ul>
+                        <li><a href="port_int_01.html">INTERFACE DESIGN</a></li>            
+                        <li><a href="port_email_01.html">E-MAIL DESIGN</a></li>
+                        <li><a href="port_modeling_01.html">3D MODELING & ANIMATION</a></li>
+                        <li><a href="port_print_01.html">PRINTED DESIGN</a></li>
+                        <li><a href="port_other_01.html">OTHER DESIGN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="designer.html">THE DESIGNER</a>
+            
+                    <ul>
+                        <li><a href="Jwpoppa_2011_resume.doc" target="_blank">MY RESUME</a></li>            
+                        <li><a href="http://www.linkedin.com/profile/view?id=4352093&trk=tab_pro" target="_blank">LINKED-IN PROFILE</a></li>
+                    </ul>
+            
+                </li>
+                <li>
+                    <a href="contact.php">CONTACT ME</a>
+                </li>
+            </ul>          
+  		</div>
+        <!--END HEADER-->
+        
+        <div id="body"> 
+        
+       	  <div id="leftCol"><!-- InstanceBeginEditable name="Left Column" -->
+          	<p><a href="port_int_04.html" style="float:left">PREVIOUS</a> <a href="port_int_01.html" style="float:right;">NEXT</a></p>
+   		  <p>&nbsp;</p>
+          			<img src="images/gallery_helpusadopt.jpg" width="550" height="450" />
+      <p>&nbsp;</p>
+            <p><a href="port_int_04.html" style="float:left">PREVIOUS</a> <a href="port_int_01.html" style="float:right;">NEXT</a></p>
+            <p>&nbsp;</p>
+       	  <!-- InstanceEndEditable --></div>
+      <div id="rightCol"><!-- InstanceBeginEditable name="Right Column" -->
+      		<h1>Interface Design</h1>
+      		<h2>HelpUsAdopt.org</h2>
+      <p>Over the past several years, I've been excited to watch <a href="http://www.helpusadopt.org" target="_blank">HelpUsAdopt.org</a> grow as a charity. I've been the designer/webmaster of the site since it's inception, and over the years, we've added functionality for mailing lists, purchases, donations, and online event registration.</p>
+      <p>Some of the design changes have helped to drive traffic to the right pages, and as <a href="http://www.helpusadopt.org" target="_blank">HelpUsAdopt</a> capitalizes on good press, the design is ready to take users to the top four pages; Purchase, Events, Application and Frequently Asked Questions. People are here to offer charitable help or ask for help, so the design must communicate those things.</p>
+      <p>We must also establish that the organization is professional and credible, which we do through the choice of features on the Home Page and a clean user experience.</p>
+      <p>The metrics for HelpUsAdopt prove that these improvements are working.</p>
+      <!-- InstanceEndEditable --></div>    
+          
+          
+<!--FOOTER-->
+          <div id="footer">
+          	<ul id="footer_text">
+                <li>
+                    <a href="index.html">HOME</a>
+                </li>            
+                <li>
+                    <a href="portfolio.html">PORTFOLIO</a>
+                    <ul>
+                        <li><a href="port_int_01.html">INTERFACE DESIGN</a></li>            
+                      <li><a href="port_email_01.html">E-MAIL DESIGN</a></li>
+                        <li><a href="port_modeling_01.html">3D MODELING</a></li>
+                        <li><a href="port_print_01.html">PRINTED DESIGN</a></li>
+                        <li><a href="port_other_01.html">OTHER DESIGN</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="designer.html">THE DESIGNER</a>
+            
+                    <ul>
+                        <li><a href="Jwpoppa_2011_resume.doc" target="_blank">MY RESUME</a></li>            
+                      <li><a href="http://www.linkedin.com/profile/view?id=4352093&trk=tab_pro" target="_blank">LINKED-IN PROFILE</a></li>
+                    </ul>
+            
+                </li>
+                <li>
+                    <a href="contact.php">CONTACT ME</a>
+                </li>
+            </ul>        
+          </div>
+<!--END FOOTER-->          
+          
+          
+        </div>
+
+</div>
+
+</body>
+<!-- InstanceEnd --></html>

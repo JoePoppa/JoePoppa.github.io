@@ -1,0 +1,378 @@
+@charset "utf-8";
+/* CSS Document */
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+body {
+	margin: -10px 0 0 -10px;
+	padding: 0;
+	background-position: center;
+	background-position: top;
+	background-color: #EC9E2B;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	line-height: 20px;
+}
+
+ul {
+	list-style-position: outside;
+	list-style-type: square;
+	left: 30px;
+	position: relative;
+	list-style-image: url(../images/bullet.gif);
+	margin-right: 40px;
+}
+
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+h2 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #333;
+	font-weight: bold;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #455165;
+	line-height: 18px;
+	font-style: italic;
+}
+
+client {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #333;
+	line-height: 18px;
+	text-align: right;
+}
+
+a {
+	color: #0099CC;
+	font-weight: bold;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0099cc;
+}
+
+html body {
+	margin:0;
+	padding:0;
+}
+
+.nothingBelow {
+	margin-bottom: 0px !important;
+}
+
+td {
+	vertical-align: top;
+}
+
+.TopBanner {
+	background-color: #731472;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 90px;
+	position: relative;
+}
+
+.TopBanner_X {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	height: 90px;
+	position: relative;
+	text-align: right;
+}
+
+.Logo {
+	background-image: url(../images/sgd_logo.gif);
+	background-repeat: no-repeat;
+	float: left;
+	width: 830px;
+	height: 90px;
+}
+
+.Logo_Text {
+	float: right;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #FFF;
+	text-align: right;
+	line-height: 18px;
+	margin: 0px;
+	padding-top: 15px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+
+.Logo_Text a {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.Logo_Text a:hover {
+	color: #FECD51;
+	text-decoration: underline;
+}
+
+.Menu {
+	background-color: #561d54;
+	background-image: url(../images/menu_bkg.gif);
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 34px;
+	position: relative;
+}
+
+.Menu_X {
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	height: 34px;
+	position: relative;
+}
+
+/*------------------------------------*\
+	NAV
+\*------------------------------------*/
+#nav{
+	list-style:none;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size:12px;
+	margin-bottom:0px;
+	/* Clear floats */
+	width:inherit;
+	position:relative;
+	z-index:50;
+	left: 85px;
+	top: 1px;
+	text-transform: capitalize;
+	color: #FFF;
+}
+#nav li{
+	float:left;
+	margin-right:60px;
+	position:relative;
+	z-index:50;
+}
+#nav a{
+	display:block;
+	color:#ced0c5;
+	text-decoration:none;
+	background-color: #561D54;
+	padding: 5px;
+	text-transform: uppercase;
+	z-index:50;
+}
+#nav a:hover{
+	color:#fff;
+	text-decoration:underline;
+	text-transform: uppercase;
+	background-color: #561D54;
+	z-index:50;
+}
+
+/*--- DROPDOWN ---*/
+#nav ul{
+	/* background:#fff;  Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background-image:url(../images/transparent.gif);
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+	z-index:50;
+	left:-9999px; /* Hide off-screen when not needed (this is more accessible than display:none;) */
+}
+#nav ul li{
+	padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+	font-size: 12px;
+	margin-left: 5px;
+	line-height: 12px;
+	z-index:50;
+}
+#nav ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#nav li:hover ul{ /* Display the dropdown on hover */
+	left:0; /* Bring back on-screen when needed */
+}
+#nav li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-decoration:none;
+	background-color: #561D54;
+}
+#nav li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+}
+#nav li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	background-color: #731472;
+	z-index:50;
+}
+/* End NAV */
+
+.Display {
+	background-color: #ffffff;
+	background-image: url(../images/display_bkg.gif);
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+.Display_X {
+	width: 980px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #C9C1BE;
+	border-left-color: #C9C1BE;
+	list-style-type: square;
+}
+.Display_Y {
+	width: 980px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-right-style: dotted;
+	border-left-style: dotted;
+	border-right-color: #C9C1BE;
+	border-left-color: #C9C1BE;
+	list-style-type: square;
+	background-image: url(../images/twothirds_col_bkg.jpg);
+	background-repeat: repeat-y;
+}
+
+
+.Footer {
+	background-color: #EC9E2B;
+	position: relative;
+	width: 100%;
+	height: 150px;
+}
+
+.Footer_X {
+	width: 980px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 10;
+	height: 150px;
+	background-image: url(../images/footer_bkg2.gif);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+/*------------------------------------*\
+	FOOTER NAV
+\*------------------------------------*/
+#footer_text{
+	list-style:none;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	font-size:12px;
+	margin-bottom:2px;
+	/* Clear floats */
+	float:left;
+	width:100%;
+	position:relative;
+	z-index:50;
+	left: 70px;
+	top: 2px;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	color: #FFC;
+	text-transform: capitalize;
+}
+#footer_text li{
+	float:left;
+	margin-right:70px;
+	position:relative;
+	text-transform: capitalize;
+}
+#footer_text a{
+	display:block;
+	color:#FFC;
+	text-decoration:none;
+	padding: 7px;
+	text-transform: uppercase;
+}
+#footer_text a:hover{
+	color:#FFF;
+	text-decoration:none;
+	text-transform: uppercase;
+}
+
+/*--- DROPDOWN ---*/
+#footer_text ul{
+	/* background:#fff;  Adding a background makes the dropdown work properly in IE7+. Make this as close to your page's background as possible (i.e. white page == white background). */
+	background-image:url(../images/transparent.gif);
+	background:rgba(255,255,255,0); /* But! Let's make the background fully transparent where we can, we don't actually want to see it if we can help it... */
+	list-style:none;
+	position:absolute;
+}
+#footer_text ul li{
+	padding-top:0px; /* Introducing a padding between the li and the a give the illusion spaced items */
+	float:none;
+	font-size: 11px;
+	margin-left: -20px;
+	line-height: 0px;
+	text-transform: capitalize;
+}
+#footer_text ul a{
+	white-space:nowrap; /* Stop text wrapping and creating multi-line dropdown items */
+}
+#footer_text li:hover ul{ /* Display the dropdown on hover */
+	
+}
+#footer_text li:hover a{ /* These create persistent hover states, meaning the top-most link stays 'hovered' even when your cursor has moved down the list. */
+	text-transform: capitalize;
+}
+#footer_text li:hover ul a{ /* The persistent hover state does however create a global style for links even before they're hovered. Here we undo these effects. */
+	text-decoration:none;
+	text-transform: capitalize;
+}
+#footer_text li:hover ul li a:hover{ /* Here we define the most explicit hover states--what happens when you hover each individual link. */
+	text-transform: capitalize;
+}
+
+/* END FOOTER */
